@@ -22,7 +22,6 @@ function Chat() {
   };
 
   const handleSubmit = async (e) => {
-    console.log('api url is', config.apiUrl)
     e.preventDefault();
     setInput('')
 
