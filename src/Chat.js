@@ -1,6 +1,7 @@
 // src/Chat.js
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
+import config from './config';
 import './Chat.css'; // Import the CSS file
 
 function Chat() {
@@ -21,6 +22,7 @@ function Chat() {
   };
 
   const handleSubmit = async (e) => {
+    console.log('api url is', config.apiUrl)
     e.preventDefault();
     setInput('')
 
@@ -29,7 +31,7 @@ function Chat() {
     setConversation(newConversation);
     setLoading(true)
     try {
-      const res = await axios.post('http://localhost:5000/api/chat', { input });
+      const res = await axios.post(`${config.apiUrl}/api/chat`, { input });
       setConversation((prev) => [...prev, { role: 'assistant', content: res.data.message } ]);
     } catch (error) {
       console.error('Error:', error);
