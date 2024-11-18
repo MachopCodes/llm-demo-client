@@ -1,6 +1,6 @@
 {
   "name": "chatgpt-react-app",
-  "homepage": "https://machopcodes.github.io/llm-demo",
+  "homepage": "https://machopcodes.github.io/llm-demo-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
