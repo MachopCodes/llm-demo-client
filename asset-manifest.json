@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/llm-demo/static/css/main.798104dc.css",
+    "main.js": "/llm-demo/static/js/main.7c7b7938.js",
+    "static/js/453.558cb793.chunk.js": "/llm-demo/static/js/453.558cb793.chunk.js",
+    "index.html": "/llm-demo/index.html",
+    "main.798104dc.css.map": "/llm-demo/static/css/main.798104dc.css.map",
+    "main.7c7b7938.js.map": "/llm-demo/static/js/main.7c7b7938.js.map",
+    "453.558cb793.chunk.js.map": "/llm-demo/static/js/453.558cb793.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.798104dc.css",
+    "static/js/main.7c7b7938.js"
+  ]
+}
